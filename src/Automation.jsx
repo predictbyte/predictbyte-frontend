@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Automation() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#fff" }}>
       {/* --------------------FIRST--------------------- */}
 
       <section className="ai-partner-section text-white py-5">
@@ -207,7 +207,7 @@ export default function Automation() {
 
       {/* FAQS section */}
 
-      <div className="container py-5">
+      <div className="container py-5" style={{ backgroundColor: "#fff" }}>
         <h2 className="text-center fw-bold mb-5">Frequently Asked Questions</h2>
         <div className="row g-4">
           <div className="col-sm-6">
