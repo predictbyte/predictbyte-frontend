@@ -574,65 +574,61 @@ $('.cards').commentCards();
 
 
       {/* ------------------expertise----------------------- */}
-    <section className="approach-section">
-  <div className="approach-header">
+    <section className="web-expertise-section">
+  <div className="web-expertise-header">
     <h2>Our Expertise</h2>
     <p>Comprehensive mobile development for every platform</p>
   </div>
   
-    <div className="row row-cols-1 row-cols-md-2 g-4">
-      <div className="col">
-        <div className="expertise-card h-100">
-          <div className="expertise-icon">
-            <i className="fa-solid fa-mobile-screen-button"></i>
-          </div>
-          <h5 className="fw-bold">Native iOS Development</h5>
-          <p>
-            High-performance apps built with Swift for seamless Apple ecosystem
-            integration.
-          </p>
+  <div className="row row-cols-1 row-cols-md-2 g-4 web-expertise-row">
+    <div className="col">
+      <div className="web-expertise-card h-100">
+        <div className="web-expertise-icon">
+          <i className="fa-solid fa-mobile-screen-button"></i>
         </div>
-      </div>
-
-      <div className="col">
-        <div className="expertise-card h-100">
-          <div className="expertise-icon">
-            <i className="fa-solid fa-robot"></i>
-          </div>
-          <h5 className="fw-bold">Native Android Development</h5>
-          <p>
-            Robust Android apps using Kotlin that leverage the full power of the
-            platform.
-          </p>
-        </div>
-      </div>
-
-      <div className="col">
-        <div className="expertise-card h-100">
-          <div className="expertise-icon">
-            <i className ="fa-solid fa-bolt"></i>
-          </div>
-          <h5 className="fw-bold">Cross-Platform Solutions</h5>
-          <p>
-            Efficient development with React Native and Flutter for iOS and
-            Android simultaneously.
-          </p>
-        </div>
-      </div>
-
-      <div class="col">
-        <div className="expertise-card h-100">
-          <div className="expertise-icon">
-          <i className="fa-solid fa-shield-halved"></i>
-          </div>
-          <h5 className="fw-bold">Enterprise App Development</h5>
-          <p>
-            Secure, scalable applications designed for large-scale business
-            operations.
-          </p>
-        </div>
+        <h5 className="fw-bold">Native iOS Development</h5>
+        <p>
+          High-performance apps built with Swift for seamless Apple ecosystem integration.
+        </p>
       </div>
     </div>
+
+    <div className="col">
+      <div className="web-expertise-card h-100">
+        <div className="web-expertise-icon">
+          <i className="fa-solid fa-robot"></i>
+        </div>
+        <h5 className="fw-bold">Native Android Development</h5>
+        <p>
+          Robust Android apps using Kotlin that leverage the full power of the platform.
+        </p>
+      </div>
+    </div>
+
+    <div className="col">
+      <div className="web-expertise-card h-100">
+        <div className="web-expertise-icon">
+          <i className="fa-solid fa-bolt"></i>
+        </div>
+        <h5 className="fw-bold">Cross-Platform Solutions</h5>
+        <p>
+          Efficient development with React Native and Flutter for iOS and Android simultaneously.
+        </p>
+      </div>
+    </div>
+
+    <div className="col">
+      <div className="web-expertise-card h-100">
+        <div className="web-expertise-icon">
+          <i className="fa-solid fa-shield-halved"></i>
+        </div>
+        <h5 className="fw-bold">Enterprise App Development</h5>
+        <p>
+          Secure, scalable applications designed for large-scale business operations.
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
 
 {/* <!-- Font Awesome for icons --> */}
@@ -640,31 +636,31 @@ $('.cards').commentCards();
 
 
 {/* ----------------approach------------------- */}
-<section className="approach-section">
-  <div className="approach-header">
+<section className="our-approach-section">
+  <div className="our-approach-header">
     <h2>Our Approach</h2>
     <p>Building apps that users love and businesses trust</p>
   </div>
 
-  <div className="approach-cards">
-    <div className="approach-card">
-      <div className="approach-icon">
+  <div className="our-approach-cards">
+    <div className="our-approach-card">
+      <div className="our-approach-icon">
         <i className="fa-solid fa-bolt"></i>
       </div>
       <h3>User Experience First</h3>
       <p>Intuitive interfaces and seamless interactions that delight users</p>
     </div>
 
-    <div className="approach-card">
-      <div className="approach-icon">
+    <div className="our-approach-card">
+      <div className="our-approach-icon">
         <i className="fa-solid fa-chart-line"></i>
       </div>
       <h3>Performance Driven</h3>
       <p>Optimized code ensuring fast load times and smooth functionality</p>
     </div>
 
-    <div className="approach-card">
-      <div className="approach-icon">
+    <div className="our-approach-card">
+      <div className="our-approach-icon">
         <i className="fa-solid fa-shield-halved"></i>
       </div>
       <h3>Built to Scale</h3>
@@ -672,6 +668,7 @@ $('.cards').commentCards();
     </div>
   </div>
 </section>
+
 
 {/* <!-- Font Awesome Icons --> */}
 <script src="https://kit.fontawesome.com/a076d05399.js" ></script>
