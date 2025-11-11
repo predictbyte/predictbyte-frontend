@@ -1,10 +1,20 @@
 
+import React from "react";
+import {useEffect,useState} from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  EffectCoverflow,
+  Pagination,
+  Navigation,
+  Autoplay,
+  FreeMode,
+} from "swiper/modules";
+
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper/modules";
-import { useState,useEffect } from 'react';
+import "swiper/css/navigation";
+
 import { Link } from "react-router-dom";
 
 
@@ -285,28 +295,36 @@ $('.cards').commentCards();
 
 
 {/* ----------------top section-------------- */}
-
-    <div className="movie-slider-container">
+   <div className="movie-slider-container">
       <Swiper
-        effect={"coverflow"}
+        effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={3.5}
+        slidesPerView={3.2}
+        speed={900}
+        freeMode={true}
+        // freeModeMomentumRatio={0.4}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
         pagination={{ clickable: true }}
         coverflowEffect={{
           rotate: 25,
           stretch: 0,
           depth: 100,
           modifier: 1,
-          slideShadows: true
+          slideShadows: true,
         }}
         breakpoints={{
-          320: { slidesPerView: 2 },
+          320: { slidesPerView: 1.2 },
+          480: { slidesPerView: 1.8 },
           640: { slidesPerView: 2.5 },
-          768: { slidesPerView: 3.5 }
+          1024: { slidesPerView: 3.2 },
         }}
-        modules={[EffectCoverflow, Pagination]}
+        modules={[EffectCoverflow, Pagination, Navigation, Autoplay, FreeMode]}
         className="movies"
       >
         {movies.map((movie, index) => (
@@ -317,8 +335,9 @@ $('.cards').commentCards();
                 <h3>{movie.title}</h3>
                 <p>{movie.desc}</p>
                 <div className="actions">
-                 
-                <Link to="/contact">  <a href="#" className="button">Enquire Now</a></Link>
+                  <Link to="/contact" className="button">
+                    Enquire Now
+                  </Link>
                 </div>
               </div>
             </div>
@@ -326,7 +345,6 @@ $('.cards').commentCards();
         ))}
       </Swiper>
     </div>
-
 
   {/* // ----------------------------------------------------------Slider */}
 
@@ -554,8 +572,111 @@ $('.cards').commentCards();
     </div>
       </section>
 
-      
 
+      {/* ------------------expertise----------------------- */}
+    <section className="approach-section">
+  <div className="approach-header">
+    <h2>Our Expertise</h2>
+    <p>Comprehensive mobile development for every platform</p>
+  </div>
+  
+    <div className="row row-cols-1 row-cols-md-2 g-4">
+      <div className="col">
+        <div className="expertise-card h-100">
+          <div className="expertise-icon">
+            <i className="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <h5 className="fw-bold">Native iOS Development</h5>
+          <p>
+            High-performance apps built with Swift for seamless Apple ecosystem
+            integration.
+          </p>
+        </div>
+      </div>
+
+      <div className="col">
+        <div className="expertise-card h-100">
+          <div className="expertise-icon">
+            <i className="fa-solid fa-robot"></i>
+          </div>
+          <h5 className="fw-bold">Native Android Development</h5>
+          <p>
+            Robust Android apps using Kotlin that leverage the full power of the
+            platform.
+          </p>
+        </div>
+      </div>
+
+      <div className="col">
+        <div className="expertise-card h-100">
+          <div className="expertise-icon">
+            <i className ="fa-solid fa-bolt"></i>
+          </div>
+          <h5 className="fw-bold">Cross-Platform Solutions</h5>
+          <p>
+            Efficient development with React Native and Flutter for iOS and
+            Android simultaneously.
+          </p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div className="expertise-card h-100">
+          <div className="expertise-icon">
+          <i className="fa-solid fa-shield-halved"></i>
+          </div>
+          <h5 className="fw-bold">Enterprise App Development</h5>
+          <p>
+            Secure, scalable applications designed for large-scale business
+            operations.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+{/* <!-- Font Awesome for icons --> */}
+<script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+
+
+{/* ----------------approach------------------- */}
+<section className="approach-section">
+  <div className="approach-header">
+    <h2>Our Approach</h2>
+    <p>Building apps that users love and businesses trust</p>
+  </div>
+
+  <div className="approach-cards">
+    <div className="approach-card">
+      <div className="approach-icon">
+        <i className="fa-solid fa-bolt"></i>
+      </div>
+      <h3>User Experience First</h3>
+      <p>Intuitive interfaces and seamless interactions that delight users</p>
+    </div>
+
+    <div className="approach-card">
+      <div className="approach-icon">
+        <i className="fa-solid fa-chart-line"></i>
+      </div>
+      <h3>Performance Driven</h3>
+      <p>Optimized code ensuring fast load times and smooth functionality</p>
+    </div>
+
+    <div className="approach-card">
+      <div className="approach-icon">
+        <i className="fa-solid fa-shield-halved"></i>
+      </div>
+      <h3>Built to Scale</h3>
+      <p>Architecture designed to grow with your user base and business needs</p>
+    </div>
+  </div>
+</section>
+
+{/* <!-- Font Awesome Icons --> */}
+<script src="https://kit.fontawesome.com/a076d05399.js" ></script>
+
+    
 {/* ----------------------imges chnages--------------------- */}
  <div
       className="testi-container text-center p-6"
