@@ -21,7 +21,7 @@ export default function Adaura() {
                 (Powered by PredictByte Infosoft)
               </span>{" "}
             </h1>
-
+<br></br><br></br>
             <p className="text-muted mt-3">
               AdAura empowers brands to gain a 360° view of their advertising
               impact. With our AI-driven system, we detect and analyze ads
@@ -45,7 +45,7 @@ export default function Adaura() {
               </button>
             </Link>
           </div>
-
+<br></br><br></br>
           {/* Right Illustration */}
           <div className="col-lg-6 text-center mt-5 mt-lg-0">
             <img
