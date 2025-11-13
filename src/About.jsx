@@ -239,7 +239,7 @@ export default function About() {
               </div>
               <div className="box-desc">
                 <h5>Nikhil Tarar</h5>
-                <p>Snr. Data Science</p>
+                <p>Snr. Data Scientist</p>
               </div>
               <ul className="social">
                 <li>
@@ -330,7 +330,7 @@ export default function About() {
                 <img className="img-fluid" src="shub.jpg" alt="..." />
               </div>
               <div className="box-desc">
-                <h5>Subham</h5>
+                <h5>Shubham</h5>
                 <p>Backend Developer</p>
               </div>
               <ul className="social">
@@ -432,7 +432,7 @@ export default function About() {
               </div>
               <div className="box-desc">
                 <h5>Mohit </h5>
-                <p>software Developer</p>
+                <p>Software Developer</p>
               </div>
               <ul className="social">
                 <li>
