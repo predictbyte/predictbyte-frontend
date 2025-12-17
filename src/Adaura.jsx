@@ -46,7 +46,7 @@ export default function Adaura() {
               </button>
             </Link>
           </div>
-<br></br><br></br>
+<br></br><br></br><br></br>
           {/* Right Illustration */}
           <div className="col-lg-6 text-center mt-5 mt-lg-0">
             <img
