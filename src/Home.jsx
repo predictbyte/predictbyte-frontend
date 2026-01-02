@@ -376,7 +376,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                     short for next-gen development
                   </p>
-                <a href="https://www.behance.net/gallery/234599893/Unleash-Your-Potential-A-Sports-Tech-Experience?tracking_source=search_projects|web+development&l=6">  <button className="project-card__btn">Details</button></a>
+                {/* <a href="https://www.behance.net/gallery/234599893/Unleash-Your-Potential-A-Sports-Tech-Experience?tracking_source=search_projects|web+development&l=6">  <button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -398,7 +398,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                     clean, simple, futuristic
                   </p>
-                  <a href="https://www.behance.net/gallery/236545703/DataAI-AI-Data-Analytics-Platform-SaaS-UX-UI-Design?tracking_source=search_projects|data+scinece&l=8"><button className="project-card__btn">Details</button></a>
+                  {/* <a href="https://www.behance.net/gallery/236545703/DataAI-AI-Data-Analytics-Platform-SaaS-UX-UI-Design?tracking_source=search_projects|data+scinece&l=8"><button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -420,7 +420,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                   data growing into insights
                   </p>
-                  <a href="https://www.behance.net/gallery/237410221/VistaWear-Dashboard-AI-Powered-Business-Management?tracking_source=search_projects|data+scinece+ai&l=14"><button className="project-card__btn">Details</button></a>
+                  {/* <a href="https://www.behance.net/gallery/237410221/VistaWear-Dashboard-AI-Powered-Business-Management?tracking_source=search_projects|data+scinece+ai&l=14"><button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -442,7 +442,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                     fast and powerful app creation
                   </p>
-             <a href="https://www.behance.net/gallery/236157443/AI-Sales-Assistant-Branding-Web-Mobile-Design?tracking_source=search_projects|app+development&l=1"><button className="project-card__btn">Details</button></a>
+             {/* <a href="https://www.behance.net/gallery/236157443/AI-Sales-Assistant-Branding-Web-Mobile-Design?tracking_source=search_projects|app+development&l=1"><button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -464,7 +464,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                    focused on metrics and precision
                   </p>
-                 <a href="https://www.behance.net/gallery/232996777/AI-driven-Customer-Support-App?tracking_source=search_projects|data+analytics&l=9"> <button className="project-card__btn">Details</button></a>
+                 {/* <a href="https://www.behance.net/gallery/232996777/AI-driven-Customer-Support-App?tracking_source=search_projects|data+analytics&l=9"> <button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -485,7 +485,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                    crafting software like an artisan
                   </p>
-                 <a href="https://www.behance.net/gallery/227976909/AITC-International-Inspiring-Social-Media-Designs?tracking_source=search_projects|sotware+development&l=1"> <button className="project-card__btn">Details</button></a>
+                 {/* <a href="https://www.behance.net/gallery/227976909/AITC-International-Inspiring-Social-Media-Designs?tracking_source=search_projects|sotware+development&l=1"> <button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -506,7 +506,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                     simplify and amplify your marketing
                   </p>
-                  <a href="https://www.behance.net/gallery/236462127/Digital-Marketing-Website-Landing-Page?tracking_source=search_projects|digital++marketing&l=18"><button className="project-card__btn">Details</button></a>
+                  {/* <a href="https://www.behance.net/gallery/236462127/Digital-Marketing-Website-Landing-Page?tracking_source=search_projects|digital++marketing&l=18"><button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -527,7 +527,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                    modern and techy marketing vibe
                   </p>
-                  <a href="https://www.behance.net/gallery/235558007/AI-Powered-Mental-Therapy-App-UIUX-Case-Study?tracking_source=search_projects|live+support+m+arketing+wbsite&l=1"><button className="project-card__btn">Details</button></a>
+                  {/* <a href="https://www.behance.net/gallery/235558007/AI-Powered-Mental-Therapy-App-UIUX-Case-Study?tracking_source=search_projects|live+support+m+arketing+wbsite&l=1"><button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
@@ -548,7 +548,7 @@ $('.cards').commentCards();
                   <p className="project-card__desc">
                     simplify and beautify design
                   </p>
-                 <a href="https://www.behance.net/gallery/219801203/Kolonmall-UXUI-Renewal?tracking_source=search_projects|Live+Support+ui+ux&l=9&bid=81117"> <button className="project-card__btn">Details</button></a>
+                 {/* <a href="https://www.behance.net/gallery/219801203/Kolonmall-UXUI-Renewal?tracking_source=search_projects|Live+Support+ui+ux&l=9&bid=81117"> <button className="project-card__btn">Details</button></a> */}
                 </div>
               </div>
             </article>
