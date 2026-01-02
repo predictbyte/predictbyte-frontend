@@ -44,7 +44,7 @@ export default function About() {
 
             {/* <!-- Paragraph --> */}
             <p className="our-story-text">
-             PredictByte InfoSoft is a premier IT Solutions & Digital Agency dedicated to engineering high-performance software and transformative digital experiences.<br></br> We bridge the gap between complex business challenges and scalable techno- <br></br>logy, specializing in Custom Software Development, AI-driven strategies, and <br></br> Cloud Architecture. By leveraging cutting-edge tech stacks and agile delivery, <br></br>  we provide the technical backbone that empowers global brands to innovate,  <br></br> scale,  and lead in the modern digital economy.
+             PredictByte InfoSoft is a premier IT Solutions & Digital Company dedicated to engineering high-performance software and transformative digital experiences.<br></br> We bridge the gap between complex business challenges and scalable techno- <br></br>logy, specializing in Custom Software Development, AI-driven strategies, and <br></br> Cloud Architecture. By leveraging cutting-edge tech stacks and agile delivery, <br></br>  we provide the technical backbone that empowers global brands to innovate,  <br></br> scale,  and lead in the modern digital economy.
             </p>
 
             {/* <!-- Stats --> */}
@@ -80,7 +80,7 @@ export default function About() {
               In Pixels.
             </h1>
             <p className="description">
-              PredictByte InfoSoft is a dynamic IT Solutions & Digital Agency dedicated to turning 'Big Dreams' into high-performance digital realities. We specialize in engineering scalable software, AI-driven strategies, and transformative cloud architectures. By combining cutting-edge technology with creative precision, we provide the technical backbone that empowers global businesses to innovate and lead in the digital frontier.
+              PredictByte InfoSoft is a dynamic IT Solutions & Digital Company dedicated to turning 'Big Dreams' into high-performance digital realities. We specialize in engineering scalable software, AI-driven strategies, and transformative cloud architectures. By combining cutting-edge technology with creative precision, we provide the technical backbone that empowers global businesses to innovate and lead in the digital frontier.
             </p>
           </div>
           <div className="image-section">
