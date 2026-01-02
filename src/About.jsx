@@ -44,7 +44,7 @@ export default function About() {
 
             {/* <!-- Paragraph --> */}
             <p className="our-story-text">
-             PredictByte InfoSoft is a premier IT Solutions & Digital Agency dedicated to engineering high-performance software and transformative digital experiences. We bridge the gap between complex business challenges and scalable technology, specializing in Custom Software Development, AI-driven strategies, and Cloud Architecture. By leveraging cutting-edge tech stacks and agile delivery, we provide the technical backbone that empowers global brands to innovate, scale, and lead in the modern digital economy.
+             PredictByte InfoSoft is a premier IT Solutions & Digital Agency dedicated to engineering high-performance software and transformative digital experiences.<br></br> We bridge the gap between complex business challenges and scalable technology, specializing in Custom Software Development, AI-driven strategies, and Cloud Architecture. By leveraging cutting-edge tech stacks and agile delivery, we provide the technical backbone that empowers global brands to innovate, scale, and lead in the modern digital economy.
             </p>
 
             {/* <!-- Stats --> */}
