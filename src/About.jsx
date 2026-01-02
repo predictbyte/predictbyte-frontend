@@ -44,17 +44,7 @@ export default function About() {
 
             {/* <!-- Paragraph --> */}
             <p className="our-story-text">
-              PredictByte InfoSoft, the leading Ed-Tech force, strives to
-              revolutionize IT and empower professionals. We bridge the
-              industry-education gap, our practical, high-quality training
-              programs in data science, full-stack development, and more are
-              designed for proficiency. Our internationally acclaimed training
-              distinguishes us with excellent instruction and reasonable
-              accessibility, and it is offered in the USA, UAE, Oman, Singapore,
-              and other locations. PredictByte InfoSoft provides agile training,
-              preparing learners for corporate success. Our commitment extends
-              to job placement support for both recent graduates and seasoned
-              professionals
+             PredictByte InfoSoft is a premier IT Solutions & Digital Agency dedicated to engineering high-performance software and transformative digital experiences. We bridge the gap between complex business challenges and scalable technology, specializing in Custom Software Development, AI-driven strategies, and Cloud Architecture. By leveraging cutting-edge tech stacks and agile delivery, we provide the technical backbone that empowers global brands to innovate, scale, and lead in the modern digital economy.
             </p>
 
             {/* <!-- Stats --> */}
@@ -90,15 +80,7 @@ export default function About() {
               In Pixels.
             </h1>
             <p className="description">
-              Get video lessons of high quality from our industry-expert
-              trainers who instruct/guide you along your journey. Our online
-              programming courses provide real-time guidance from mentors
-              on-line connectivity. Get special access to Live Webinars where
-              you can connect with relevant course topics with teachers. Get
-              business ready with our skill-specific training courses and easily
-              land your dream work. Study the contents of the course at your own
-              pace. If you are an experienced programmer, in only a couple of
-              days you can complete the courses.
+              PredictByte InfoSoft is a dynamic IT Solutions & Digital Agency dedicated to turning 'Big Dreams' into high-performance digital realities. We specialize in engineering scalable software, AI-driven strategies, and transformative cloud architectures. By combining cutting-edge technology with creative precision, we provide the technical backbone that empowers global businesses to innovate and lead in the digital frontier.
             </p>
           </div>
           <div className="image-section">
