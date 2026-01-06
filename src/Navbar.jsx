@@ -85,11 +85,11 @@ export default function Navbar() {
                 <i className="bi bi-telephone-fill"></i> Contact
               </Link>
             </li>
-         <li className="nav-item">
-  <a href="http://127.0.0.1:5501/dummy.html" className="nav-link g-5" onClick={updateMeta}>
-    <i className="bi bi-telephone-fill"></i> dummy
-  </a>
-</li>
+     <li className="nav-item">
+      <Link to="/dev" className="nav-link g-5" onClick={updateMeta}>
+        <i className="bi bi-telephone-fill"></i> dummy
+      </Link>
+    </li>
           </ul>
 
           <Link to="/contact">
