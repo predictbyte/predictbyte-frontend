@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
+  const updateMeta = () => {
+    document.title = "HTML Website Templates | template website | html code";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) {
+      meta.setAttribute("content", "HTML website templates designed for fast, responsive, and SEO-friendly...");
+    }
+  };
   return (
     <nav className="predict-navbar navbar navbar-expand-lg">
       <div className="container">
@@ -78,11 +85,11 @@ export default function Navbar() {
                 <i className="bi bi-telephone-fill"></i> Contact
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/dev" className="nav-link g-5">
-                <i className="bi bi-telephone-fill"></i> dummy
-              </Link>
-            </li>
+           <li className="nav-item">
+      <Link to="/dev" className="nav-link g-5" onClick={updateMeta}>
+        <i className="bi bi-telephone-fill"></i> dummy
+      </Link>
+    </li>
           </ul>
 
           <Link to="/contact">
