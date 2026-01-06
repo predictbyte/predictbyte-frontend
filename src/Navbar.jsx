@@ -85,6 +85,12 @@ export default function Navbar() {
               Enquiry Now!
             </button>
           </Link>
+          <Link to="/dummy">
+            <button className="btn predict-navbar-btn btn-glow ms-lg-3 mt-5 rounded-pill">
+              dummy
+            
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
