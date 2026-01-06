@@ -86,7 +86,7 @@ export default function Navbar() {
               </Link>
             </li>
      <li className="nav-item">
-      <Link to="/dummy" className="nav-link g-5" onClick={updateMeta}>
+      <Link to="/" className="nav-link g-5" onClick={updateMeta}>
         <i className="bi bi-telephone-fill"></i> dummy
       </Link>
     </li>
