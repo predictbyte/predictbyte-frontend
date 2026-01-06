@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing | PredictByte Infosoft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; overflow-x: hidden; background-color: #fff; }
+        
+        /* Hero Section */
+        .hero-section {
+            background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+            border-radius: 0 0 50px 50px;
+            padding: 80px 0;
+        }
+
+        /* FAQ Accordion Styling */
+        .accordion-item {
+            border: none;
+            margin-bottom: 15px;
+            border-radius: 15px !important;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+            overflow: hidden;
+        }
+        .accordion-button {
+            font-weight: 600;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #333;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #f8fbff;
+            color: #0d6efd;
+            box-shadow: none;
+        }
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: rgba(0,0,0,.125);
+        }
+
+        /* Form Styling */
+        .step-form-card {
+            border-radius: 30px;
+            border: none;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+        }
+        .step-content { display: none; }
+        .step-content.active { display: block; animation: fadeIn 0.5s ease; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .form-underline {
+            border: none; border-bottom: 2px solid #eee;
+            border-radius: 0; text-align: center; font-size: 1.25rem;
+        }
+        .form-underline:focus { box-shadow: none; border-color: #0d6efd; }
+
+        .service-card {
+            border-radius: 20px;
+            transition: 0.3s;
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        .service-card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="badge mb-3 px-3 py-2 rounded-pill" style="background-color: #e7f0ff; color: #0d6efd;">#1 Digital Growth Partner</span>
+                    <h1 class="fw-bold display-4">Maximize Your Online Potential with <span class="text-primary">PredictByte</span></h1>
+                    <p class="text-muted mt-4 fs-5">Build your online brand presence through data-backed marketing strategies.</p>
+                    <a href="#contact-form" class="btn btn-primary btn-lg mt-3 px-5 py-3 rounded-pill shadow">Start Your Journey →</a>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <img src="https://img.freepik.com/free-vector/digital-marketing-team-with-laptops-light-bulbs-marketing-management-digital-marketing-strategy-content-marketing-concept-bright-vibrant-violet-isolated-illustration_335657-640.jpg" alt="Marketing" class="img-fluid" style="max-height: 400px;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-light mt-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Frequently Asked Questions</h2>
+                <p class="text-muted">Everything you need to know about our digital services</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    <i class="bi bi-question-circle me-3 text-primary"></i> Which digital marketing service does my business need?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    It depends on your goals. If you want long-term organic growth, **SEO** is best. For immediate leads, **PPC (Ads)** is the way to go. We provide a free audit to help you decide the best strategy.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    <i class="bi bi-currency-dollar me-3 text-primary"></i> How much do your marketing services cost?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Our pricing is flexible and based on the scope of your project. We offer customized packages for startups, mid-sized businesses, and large enterprises to ensure maximum ROI.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    <i class="bi bi-clock-history me-3 text-primary"></i> How long does it take to see results?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    SEO typically takes **3 to 6 months** to show significant ranking improvements. However, paid campaigns like Google Ads or Meta Ads can start generating leads within the **first 48 hours**.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    <i class="bi bi-graph-up me-3 text-primary"></i> Do you provide monthly performance reports?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-muted">
+                                    Yes, transparency is our priority. We provide detailed monthly reports that include traffic data, conversion rates, and a summary of all activities performed on your account.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="card step-form-card p-4 p-md-5">
+                        <div class="progress mb-5" style="height: 6px;">
+                            <div id="progress-bar" class="progress-bar" style="width: 33%;"></div>
+                        </div>
+
+                        <div class="step-content active" id="step-1">
+                            <h3 class="fw-bold text-center mb-4">Q1. What is your name?</h3>
+                            <input type="text" id="nameInput" class="form-control form-underline mb-4" placeholder="Full Name">
+                            <div class="text-center mt-4">
+                                <button onclick="nextStep(2)" class="btn btn-primary px-5 py-2 rounded-pill">Next Question</button>
+                            </div>
+                        </div>
+
+                        <div class="step-content" id="step-2">
+                            <h3 class="fw-bold text-center mb-4">Q2. Your email address?</h3>
+                            <input type="email" id="emailInput" class="form-control form-underline mb-4" placeholder="email@company.com">
+                            <div class="text-center mt-4">
+                                <button onclick="nextStep(1)" class="btn btn-light me-2">Back</button>
+                                <button onclick="nextStep(3)" class="btn btn-primary px-5 py-2 rounded-pill">Continue</button>
+                            </div>
+                        </div>
+
+                        <div class="step-content" id="step-3">
+                            <h3 class="fw-bold text-center mb-4">Q3. Service needed?</h3>
+                            <select class="form-select form-underline mb-4">
+                                <option>SEO Optimization</option>
+                                <option>Social Media Marketing</option>
+                                <option>PPC / Google Ads</option>
+                            </select>
+                            <div class="text-center mt-4">
+                                <button onclick="nextStep(2)" class="btn btn-light me-2">Back</button>
+                                <button onclick="finishForm()" class="btn btn-success px-5 py-2 rounded-pill">Submit Request</button>
+                            </div>
+                        </div>
+
+                        <div class="step-content text-center" id="success">
+                            <i class="bi bi-check-circle-fill text-success display-1"></i>
+                            <h2 class="fw-bold mt-3">Thank You!</h2>
+                            <p class="text-muted">We have received your details.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function nextStep(stepNumber) {
+            document.querySelectorAll('.step-content').forEach(s => s.classList.remove('active'));
+            document.getElementById('step-' + stepNumber).classList.add('active');
+            let progress = (stepNumber / 3) * 100;
+            document.getElementById('progress-bar').style.width = progress + '%';
+        }
+
+        function finishForm() {
+            document.querySelectorAll('.step-content').forEach(s => s.classList.remove('active'));
+            document.getElementById('success').classList.add('active');
+            document.getElementById('progress-bar').style.width = '100%';
+            document.getElementById('progress-bar').classList.add('bg-success');
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
