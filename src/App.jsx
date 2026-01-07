@@ -11,6 +11,8 @@ import Enrollment from './Enrollment'
 import { BrowserRouter, Route,  Routes } from 'react-router-dom';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Dummy from './Dummy'
+
 
 function App() {
   
@@ -29,6 +31,7 @@ function App() {
 <Route path="/adaura" element={<Adaura></Adaura>}></Route>
 <Route path="/enroll" element={<Enrollment></Enrollment>}></Route>
 <Route path="/automation" element={<Automation></Automation>}></Route>
+<Route path="/dummy" element={<Dummy></Dummy>}></Route>
 
 </Routes>
 
