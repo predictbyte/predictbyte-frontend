@@ -85,7 +85,12 @@ export default function Navbar() {
                 <i className="bi bi-telephone-fill"></i> Contact
               </Link>
             </li>
-            
+
+            <li className="nav-item">
+              <Link to="/dummy" className="nav-link g-5" onClick={updateMeta}>
+                <i className="bi bi-telephone-fill"></i> dummy
+              </Link>
+            </li>
          
           </ul>
 
