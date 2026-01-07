@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Navbar() {
   const updateMeta = () => {
     document.title = "HTML Website Templates | template website | html code";
@@ -10,11 +11,11 @@ export default function Navbar() {
     }
   };
   return (
-    <nav className="predict-navbar navbar navbar-expand-lg">
+    <nav className="custom-navbar navbar navbar-expand-lg">
       <div className="container">
         {/* Logo */}
         <Link to="/" className="navbar-brand d-flex align-items-center">
-          <img src="pbl.png" alt="Logo" className="predict-navbar-logo me-2" />
+          <img src="pbl.png" alt="Logo" className="logo me-2" />
           <span className="fw-bold text-dark">PredictByte</span>
         </Link>
 
@@ -23,8 +24,8 @@ export default function Navbar() {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#predictNavbarNav"
-          aria-controls="predictNavbarNav"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -32,7 +33,7 @@ export default function Navbar() {
         </button>
 
         {/* Links */}
-        <div className="collapse navbar-collapse" id="predictNavbarNav">
+        <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto align-items-lg-center">
             <li className="nav-item">
               <Link to="/" className="nav-link">
@@ -44,12 +45,11 @@ export default function Navbar() {
                 <i className="bi bi-info-circle-fill"></i> About
               </Link>
             </li>
-
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
-                id="predictServicesDropdown"
+                id="servicesDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -67,7 +67,7 @@ export default function Navbar() {
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
-                id="predictProductDropdown"
+                id="productDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -85,7 +85,7 @@ export default function Navbar() {
                 <i className="bi bi-telephone-fill"></i> Contact
               </Link>
             </li>
-     <li className="nav-item">
+            <li className="nav-item">
               <Link to="/dummy" className="nav-link g-5" onClick={updateMeta}>
                 <i className="bi bi-telephone-fill"></i> dummy
               </Link>
@@ -93,11 +93,8 @@ export default function Navbar() {
           </ul>
 
           <Link to="/contact">
-            <button className="btn predict-navbar-btn btn-glow ms-lg-3 mt-5 rounded-pill">
-              Enquiry Now!
-            </button>
+            <button className="btn btn-glow ms-lg-3 mt-5">Enquiry Now!</button>
           </Link>
-         
         </div>
       </div>
     </nav>
